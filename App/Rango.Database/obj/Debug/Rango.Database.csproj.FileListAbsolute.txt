@@ -1,0 +1,7 @@
+D:\Projects\Rango\App\Rango.Database\obj\Debug\Rango.Database.csprojResolveAssemblyReference.cache
+D:\Projects\Rango\App\Rango.Database\bin\Debug\Rango.Database.dll
+D:\Projects\Rango\App\Rango.Database\bin\Debug\Rango.Database.pdb
+D:\Projects\Rango\App\Rango.Database\bin\Debug\Rango.Domain.dll
+D:\Projects\Rango\App\Rango.Database\bin\Debug\Rango.Domain.pdb
+D:\Projects\Rango\App\Rango.Database\obj\Debug\Rango.Database.dll
+D:\Projects\Rango\App\Rango.Database\obj\Debug\Rango.Database.pdb

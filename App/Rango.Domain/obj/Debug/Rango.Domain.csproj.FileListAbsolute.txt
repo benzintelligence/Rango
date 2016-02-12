@@ -1,0 +1,5 @@
+D:\Projects\Rango\App\Rango.Domain\bin\Debug\Rango.Domain.dll
+D:\Projects\Rango\App\Rango.Domain\bin\Debug\Rango.Domain.pdb
+D:\Projects\Rango\App\Rango.Domain\obj\Debug\Rango.Domain.dll
+D:\Projects\Rango\App\Rango.Domain\obj\Debug\Rango.Domain.pdb
+D:\Projects\Rango\App\Rango.Domain\obj\Debug\Rango.Domain.csprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+D:\Projects\Rango\Rango.Business\bin\Debug\Rango.Business.dll
+D:\Projects\Rango\Rango.Business\bin\Debug\Rango.Business.pdb
+D:\Projects\Rango\Rango.Business\obj\Debug\Rango.Business.dll
+D:\Projects\Rango\Rango.Business\obj\Debug\Rango.Business.pdb
+D:\Projects\Rango\Rango.Business\bin\Debug\Rango.Domain.dll
+D:\Projects\Rango\Rango.Business\bin\Debug\Rango.Domain.pdb
+D:\Projects\Rango\Rango.Business\obj\Debug\Rango.Business.csprojResolveAssemblyReference.cache
+D:\Projects\Rango\App\Rango.Business\bin\Debug\Rango.Business.dll
+D:\Projects\Rango\App\Rango.Business\bin\Debug\Rango.Business.pdb
+D:\Projects\Rango\App\Rango.Business\bin\Debug\Rango.Domain.dll
+D:\Projects\Rango\App\Rango.Business\bin\Debug\Rango.Domain.pdb
+D:\Projects\Rango\App\Rango.Business\obj\Debug\Rango.Business.csprojResolveAssemblyReference.cache
+D:\Projects\Rango\App\Rango.Business\obj\Debug\Rango.Business.dll
+D:\Projects\Rango\App\Rango.Business\obj\Debug\Rango.Business.pdb

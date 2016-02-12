@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>dc193c46-d337-4ddc-9d3c-70486ed551cf</ProjectGuid>
+    <ProjectGuid>{DC193C46-D337-4DDC-9D3C-70486ED551CF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Rango.Domain</RootNamespace>
@@ -30,24 +30,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Compile Include="Contracts\Repositories\IUserRepository.cs" />
+    <Compile Include="Contracts\Services\IUserService.cs" />
+    <Compile Include="Entities\Address.cs" />
+    <Compile Include="Entities\Order\Ordered.cs" />
+    <Compile Include="Entities\Order\OrderedItem.cs" />
+    <Compile Include="Entities\Shop\PaymentMethod.cs" />
+    <Compile Include="Entities\Score.cs" />
+    <Compile Include="Entities\Shop\Store.cs" />
+    <Compile Include="Entities\Telephone.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagram\ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -57,5 +56,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
- </Project>
+</Project>

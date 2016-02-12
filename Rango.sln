@@ -3,8 +3,57 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rango.Domain", "App\Rango.Domain\Rango.Domain.csproj", "{DC193C46-D337-4DDC-9D3C-70486ED551CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 UI", "1 UI", "{9C8F8004-3A7D-4DA8-BBF0-0684651F3861}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Application", "2 Application", "{31DB77C7-C68D-4B17-B2C2-ED311382E2D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Domain", "3 Domain", "{6A4ECFB8-9FC3-4128-958A-6416D7131312}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Infrastructure", "4 Infrastructure", "{89BF457B-2886-41CB-B62C-49F74056FE4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Test", "5 Test", "{DB80EA1B-EF07-4B60-98EB-86F4E186D25E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 Database", "4.1 Database", "{D9A3E9C0-5069-4181-80BD-8AFF1360D43B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rango.Database", "App\Rango.Database\Rango.Database.csproj", "{02C8EE7A-4D7B-4173-97C9-4B9E20AAF7C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rango.Business", "App\Rango.Business\Rango.Business.csproj", "{D4FD096D-5C93-43AB-BF14-15A453F2BE1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rango.Common", "App\Rango.Common\Rango.Common.csproj", "{24C98AE0-1062-483B-8ACE-24C9644A6DE1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC193C46-D337-4DDC-9D3C-70486ED551CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC193C46-D337-4DDC-9D3C-70486ED551CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC193C46-D337-4DDC-9D3C-70486ED551CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC193C46-D337-4DDC-9D3C-70486ED551CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C8EE7A-4D7B-4173-97C9-4B9E20AAF7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C8EE7A-4D7B-4173-97C9-4B9E20AAF7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C8EE7A-4D7B-4173-97C9-4B9E20AAF7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C8EE7A-4D7B-4173-97C9-4B9E20AAF7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4FD096D-5C93-43AB-BF14-15A453F2BE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FD096D-5C93-43AB-BF14-15A453F2BE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4FD096D-5C93-43AB-BF14-15A453F2BE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FD096D-5C93-43AB-BF14-15A453F2BE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C98AE0-1062-483B-8ACE-24C9644A6DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C98AE0-1062-483B-8ACE-24C9644A6DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C98AE0-1062-483B-8ACE-24C9644A6DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C98AE0-1062-483B-8ACE-24C9644A6DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC193C46-D337-4DDC-9D3C-70486ED551CF} = {6A4ECFB8-9FC3-4128-958A-6416D7131312}
+		{D9A3E9C0-5069-4181-80BD-8AFF1360D43B} = {89BF457B-2886-41CB-B62C-49F74056FE4D}
+		{02C8EE7A-4D7B-4173-97C9-4B9E20AAF7C6} = {D9A3E9C0-5069-4181-80BD-8AFF1360D43B}
+		{D4FD096D-5C93-43AB-BF14-15A453F2BE1C} = {31DB77C7-C68D-4B17-B2C2-ED311382E2D7}
+		{24C98AE0-1062-483B-8ACE-24C9644A6DE1} = {31DB77C7-C68D-4B17-B2C2-ED311382E2D7}
 	EndGlobalSection
 EndGlobal
