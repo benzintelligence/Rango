@@ -1,6 +1,6 @@
 ﻿namespace Rango.Domain.Entities.Order
 {
-    public class OrderedItem
+    public class OrderItem
     {
         public int Id { get; set; }
 
