@@ -1,9 +1,21 @@
-﻿namespace Rango.Domain.Entities
+﻿using System.CodeDom;
+using Rango.Common.Resources.Errors;
+using Rango.Common.Validation;
+
+namespace Rango.Domain.Entities
 {
     public class Email
     {
-        public int Id { get; set; }
+        public Email(string eletronicEmail)
+        {
+            if (EmailAssertionConcern.AssertIsInvalid(eletronicEmail, Errors.EmailInvalid))
+            {
+                ElectronicMail = eletronicEmail;
+            }
+        }
 
-        public string ElectronicMail { get; set; }
+        public int Id { get; private set; }
+
+        public string ElectronicMail { get; private set; }
     }
 }

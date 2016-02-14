@@ -10,6 +10,6 @@ namespace Rango.Domain.Entities
 
         public List<Address> Address { get; set; }
 
-
+        public User User { get; set; }
     }
 }

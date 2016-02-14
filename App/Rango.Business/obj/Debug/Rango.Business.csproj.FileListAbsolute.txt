@@ -12,3 +12,7 @@ D:\Projects\Rango\App\Rango.Business\bin\Debug\Rango.Domain.pdb
 D:\Projects\Rango\App\Rango.Business\obj\Debug\Rango.Business.csprojResolveAssemblyReference.cache
 D:\Projects\Rango\App\Rango.Business\obj\Debug\Rango.Business.dll
 D:\Projects\Rango\App\Rango.Business\obj\Debug\Rango.Business.pdb
+D:\Projects\Rango\App\Rango.Business\bin\Debug\Rango.Common.dll
+D:\Projects\Rango\App\Rango.Business\bin\Debug\Rango.Common.pdb
+D:\Projects\Rango\App\Rango.Business\bin\Debug\es\Rango.Common.resources.dll
+D:\Projects\Rango\App\Rango.Business\bin\Debug\pt-br\Rango.Common.resources.dll

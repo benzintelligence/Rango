@@ -1,0 +1,16 @@
+D:\Projects\Rango\App\Rango.Common\bin\Debug\Rango.Common.dll
+D:\Projects\Rango\App\Rango.Common\bin\Debug\Rango.Common.pdb
+D:\Projects\Rango\App\Rango.Common\bin\Debug\es\Rango.Common.resources.dll
+D:\Projects\Rango\App\Rango.Common\bin\Debug\pt-br\Rango.Common.resources.dll
+D:\Projects\Rango\App\Rango.Common\obj\Debug\Rango.Common.csprojResolveAssemblyReference.cache
+D:\Projects\Rango\App\Rango.Common\obj\Debug\Rango.Common.Resources.Errors.Errors.resources
+D:\Projects\Rango\App\Rango.Common\obj\Debug\Rango.Common.Resources.Messages.Messages.resources
+D:\Projects\Rango\App\Rango.Common\obj\Debug\Rango.Common.Resources.Errors.Errors.es.resources
+D:\Projects\Rango\App\Rango.Common\obj\Debug\Rango.Common.Resources.Errors.Errors.pt-br.resources
+D:\Projects\Rango\App\Rango.Common\obj\Debug\Rango.Common.Resources.Messages.Messages.es.resources
+D:\Projects\Rango\App\Rango.Common\obj\Debug\Rango.Common.Resources.Messages.Messages.pt-br.resources
+D:\Projects\Rango\App\Rango.Common\obj\Debug\Rango.Common.csproj.GenerateResource.Cache
+D:\Projects\Rango\App\Rango.Common\obj\Debug\es\Rango.Common.resources.dll
+D:\Projects\Rango\App\Rango.Common\obj\Debug\pt-br\Rango.Common.resources.dll
+D:\Projects\Rango\App\Rango.Common\obj\Debug\Rango.Common.dll
+D:\Projects\Rango\App\Rango.Common\obj\Debug\Rango.Common.pdb

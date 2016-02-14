@@ -57,6 +57,12 @@
   <ItemGroup>
     <None Include="Diagram\ClassDiagram.cd" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rango.Common\Rango.Common.csproj">
+      <Project>{24c98ae0-1062-483b-8ace-24c9644a6de1}</Project>
+      <Name>Rango.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
