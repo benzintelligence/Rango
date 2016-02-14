@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Rango.Domain.Entities
+﻿namespace Rango.Domain.Entities
 {
-    class Score
+    public class Score
     {
+
     }
 }

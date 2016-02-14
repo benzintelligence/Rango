@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using Rango.Domain.Entities.Shop;
 
 namespace Rango.Domain.Entities.Order
 {
-    public class Ordered
+    public class Order
     {
         public int Id { get; set; }
 
@@ -10,10 +12,12 @@ namespace Rango.Domain.Entities.Order
 
         public DateTime Date { get; set; }
 
-        // Cliente
+        public Client Client { get; set; }
 
-        // Loja
+        public Store Store { get; set; }
 
-        // Itens
+        public List<OrderItem> OrderItems { get; set; }
+
+        public List<PaymentMethod> PaymentMethodsProvide { get; set; }
     }
 }

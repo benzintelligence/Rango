@@ -1,59 +1,122 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
-  <Class Name="Rango.Domain.Entities.Order.Ordered">
-    <Position X="4" Y="0.5" Width="1.5" />
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="NameAndType">
+  <Class Name="Rango.Domain.Entities.Order.Order">
+    <Position X="0.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAEAAAAAAAAABAAAAAAAAAAA=</HashCode>
-      <FileName>Entities\Order\Ordered.cs</FileName>
+      <HashCode>AAACAAAACAEAAAAAAAAAAEAAAAAAAAABAAAAAQAAAAQ=</HashCode>
+      <FileName>Entities\Order\Order.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Rango.Domain.Entities.Order.OrderedItem">
-    <Position X="2.25" Y="0.5" Width="1.5" />
+  <Class Name="Rango.Domain.Entities.Order.OrderItem">
+    <Position X="2.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
-      <FileName>Entities\Order\OrderedItem.cs</FileName>
+      <HashCode>AAACAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Entities\Order\OrderItem.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Rango.Domain.Entities.Shop.PaymentMethod">
-    <Position X="5.75" Y="0.5" Width="1.5" />
+    <Position X="11.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Shop\PaymentMethod.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Rango.Domain.Entities.Shop.Store">
-    <Position X="4" Y="2.25" Width="1.5" />
+    <Position X="5.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAQAAAAAAAAAAAAAAAIAAAAAAJAIIAAAAAAAAAIAA=</HashCode>
+      <HashCode>AAAAYAKAAAAAAAIAAAAAIAAAAAAAIIISAAAAAAAAIAQ=</HashCode>
       <FileName>Entities\Shop\Store.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Rango.Domain.Entities.Address">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Position X="9.5" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAQAAEAAAAAIAEAIAAAAAAAAAAAAAAIABAAAAAA=</HashCode>
+      <HashCode>AAAAAAQAAEAAAAIIAEAIAAAAAAAAAAAAAAIABAAAAAA=</HashCode>
       <FileName>Entities\Address.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Rango.Domain.Entities.Score">
-    <Position X="2.25" Y="2" Width="1.5" />
+    <Position X="4" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Score.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Rango.Domain.Entities.Telephone">
-    <Position X="0.5" Y="3.25" Width="1.5" />
+    <Position X="7.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAEAEAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Telephone.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Rango.Domain.Entities.User">
-    <Position X="2.25" Y="3.25" Width="1.5" />
+    <Position X="0.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
       <FileName>Entities\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rango.Domain.Entities.Rating.Rating">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Entities\Shop\Rating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rango.Domain.Entities.Products.Product">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEACAA=</HashCode>
+      <FileName>Entities\Products\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rango.Domain.Entities.Order.Payment">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Order\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rango.Domain.Entities.Products.Category">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Products\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rango.Domain.Entities.Shop.Culinary">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Shop\Culinary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rango.Domain.Entities.Shop.PageLink">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Entities\Shop\PageLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rango.Domain.Entities.Shop.WorkHours">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIACQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Shop\WorkHours.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rango.Domain.Entities.Client" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAA=</HashCode>
+      <FileName>Entities\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rango.Domain.Entities.Email">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Email.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
