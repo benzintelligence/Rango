@@ -133,6 +133,15 @@ namespace Rango.Common.Resources.Errors {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enter a Order.
+        /// </summary>
+        public static string OrderInvalid {
+            get {
+                return ResourceManager.GetString("OrderInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Incorrect password.
         /// </summary>
         public static string PasswordDoNotMatch {
@@ -147,6 +156,33 @@ namespace Rango.Common.Resources.Errors {
         public static string PasswordIntervalCaractere {
             get {
                 return ResourceManager.GetString("PasswordIntervalCaractere", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter a Product.
+        /// </summary>
+        public static string ProductInvalid {
+            get {
+                return ResourceManager.GetString("ProductInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quantity must be greater than zero.
+        /// </summary>
+        public static string QuantityInvalid {
+            get {
+                return ResourceManager.GetString("QuantityInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter the name of the category.
+        /// </summary>
+        public static string TitleInvalid {
+            get {
+                return ResourceManager.GetString("TitleInvalid", resourceCulture);
             }
         }
         

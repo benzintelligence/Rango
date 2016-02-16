@@ -26,17 +26,17 @@ namespace Rango.Domain.Entities
         #region Methods
         public void Validate(string name, List<Address> addresses, User user)
         {
-            if (AssertionConcern.AssertArgumentLength(Name, 3, 150, Errors.NomeInvalid))
+            if (AssertionConcern.AssertArgumentLength(name, 3, 150, Errors.NomeInvalid))
             {
                 this.Name = Name;
             }
 
-            if (AssertionConcern.AssertArgumentContainsElement(Addresses, Errors.AddressEmpty))
+            if (AssertionConcern.AssertArgumentContainsElement<Address>(addresses, Errors.AddressEmpty))
             {
                 this.Addresses = Addresses;
             }
 
-            if (AssertionConcern.AssertArgumentNotNull(User, Errors.UserEmpty))
+            if (AssertionConcern.AssertArgumentNotNull(user, Errors.UserEmpty))
             {
                 this.User = User;
             }

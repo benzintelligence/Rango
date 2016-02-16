@@ -141,11 +141,23 @@
   <data name="NumberTelephone" xml:space="preserve">
     <value>Telephone number is invalid</value>
   </data>
+  <data name="OrderInvalid" xml:space="preserve">
+    <value>Enter a Order</value>
+  </data>
   <data name="PasswordDoNotMatch" xml:space="preserve">
     <value>Incorrect password</value>
   </data>
   <data name="PasswordIntervalCaractere" xml:space="preserve">
     <value>Password must be 8 to 20 characters</value>
+  </data>
+  <data name="ProductInvalid" xml:space="preserve">
+    <value>Enter a Product</value>
+  </data>
+  <data name="QuantityInvalid" xml:space="preserve">
+    <value>Quantity must be greater than zero</value>
+  </data>
+  <data name="TitleInvalid" xml:space="preserve">
+    <value>Enter the name of the category</value>
   </data>
   <data name="UserEmpty" xml:space="preserve">
     <value>Enter a User</value>
