@@ -120,6 +120,12 @@
   <data name="AddressEmpty" xml:space="preserve">
     <value>Enter an address</value>
   </data>
+  <data name="CodeStateTelephone" xml:space="preserve">
+    <value>Enter a code country</value>
+  </data>
+  <data name="DDITelephone" xml:space="preserve">
+    <value>Enter a DDI</value>
+  </data>
   <data name="EmailInvalid" xml:space="preserve">
     <value>Credentials Invalid</value>
   </data>
@@ -131,6 +137,9 @@
   </data>
   <data name="NomeInvalid" xml:space="preserve">
     <value>Invalid Name</value>
+  </data>
+  <data name="NumberTelephone" xml:space="preserve">
+    <value>Telephone number is invalid</value>
   </data>
   <data name="PasswordDoNotMatch" xml:space="preserve">
     <value>Incorrect password</value>

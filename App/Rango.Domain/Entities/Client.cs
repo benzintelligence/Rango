@@ -6,35 +6,41 @@ namespace Rango.Domain.Entities
 {
     public class Client
     {
-
-
-        public Client(string Name, List<Address> Adresses, User user)
+        #region Constructor
+        public Client(string name, List<Address> addresses, User user)
         {
-            //Ou criar ClientAssertionConcern, imagino que não. #PauloVerificar
-            if (AssertionConcern.AssertArgumentLength(Name, 2, 150, Errors.NomeInvalid))
+            Validate(name, addresses, user);
+        } 
+        #endregion
+
+        #region Properties
+        public int Id { get; private set; }
+
+        public string Name { get; private set; }
+
+        public List<Address> Addresses { get; private set; }
+
+        public User User { get; private set; }
+        #endregion
+
+        #region Methods
+        public void Validate(string name, List<Address> addresses, User user)
+        {
+            if (AssertionConcern.AssertArgumentLength(Name, 3, 150, Errors.NomeInvalid))
             {
                 this.Name = Name;
             }
 
-            if (AssertionConcern.AssertArgumentContainsElement(Adresses, Errors.AddressEmpty))
+            if (AssertionConcern.AssertArgumentContainsElement(Addresses, Errors.AddressEmpty))
             {
-                this.Addresses = Adresses;
+                this.Addresses = Addresses;
             }
 
-            if (AssertionConcern.AssertArgumentNotNull(user, Errors.UserEmpty))
+            if (AssertionConcern.AssertArgumentNotNull(User, Errors.UserEmpty))
             {
                 this.User = User;
             }
-        }
-
-        public int Id { get; set; }
-
-        public string Name { get; set; }
-
-        public List<Address> Addresses { get; set; } 
-
-        public User User { get; set; }
-
-
+        } 
+        #endregion
     }
 }

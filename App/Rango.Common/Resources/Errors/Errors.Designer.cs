@@ -70,6 +70,24 @@ namespace Rango.Common.Resources.Errors {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enter a code country.
+        /// </summary>
+        public static string CodeStateTelephone {
+            get {
+                return ResourceManager.GetString("CodeStateTelephone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter a DDI.
+        /// </summary>
+        public static string DDITelephone {
+            get {
+                return ResourceManager.GetString("DDITelephone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Credentials Invalid.
         /// </summary>
         public static string EmailInvalid {
@@ -102,6 +120,15 @@ namespace Rango.Common.Resources.Errors {
         public static string NomeInvalid {
             get {
                 return ResourceManager.GetString("NomeInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Telephone number is invalid.
+        /// </summary>
+        public static string NumberTelephone {
+            get {
+                return ResourceManager.GetString("NumberTelephone", resourceCulture);
             }
         }
         

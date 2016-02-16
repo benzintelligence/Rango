@@ -120,6 +120,12 @@
   <data name="AddressEmpty" xml:space="preserve">
     <value>Informe um Endereço</value>
   </data>
+  <data name="CodeStateTelephone" xml:space="preserve">
+    <value>Informe o DDD de seu estado</value>
+  </data>
+  <data name="DDITelephone" xml:space="preserve">
+    <value>Informe o DDI.</value>
+  </data>
   <data name="EmailInvalid" xml:space="preserve">
     <value>Credenciais inválidas</value>
   </data>
@@ -131,6 +137,9 @@
   </data>
   <data name="NomeInvalid" xml:space="preserve">
     <value>Nome inválido</value>
+  </data>
+  <data name="NumberTelephone" xml:space="preserve">
+    <value>O número de telefone é inválido</value>
   </data>
   <data name="PasswordDoNotMatch" xml:space="preserve">
     <value>Senha incorreta</value>

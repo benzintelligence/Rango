@@ -1,13 +1,50 @@
-﻿namespace Rango.Domain.Entities
+﻿using Rango.Common.Resources.Errors;
+using Rango.Common.Validation;
+
+namespace Rango.Domain.Entities
 {
     public class Telephone
     {
-        public int Id { get; set; }
+        #region Consctrutor
+        public Telephone(string ddi, string codeState, string number, int id = 0)
+        {
+            Validate(ddi, codeState, number, id);
+        } 
+        #endregion
 
-        public string DDI { get; set; }
+        #region Properties
+        public int Id { get; private set; }
 
-        public string CodeState { get; set; }
+        public string DDI { get; private set; }
 
-        public string Number { get; set; }
+        public string CodeState { get; private set; }
+
+        public string Number { get; private set; }
+        #endregion
+
+        #region Methods
+        public void Validate(string ddi, string codeState, string number, int id)
+        {
+            if (id != 0)
+            {
+                Id = id;
+            }
+
+            if (AssertionConcern.AssertArgumentLength(DDI, 1, 4, Errors.DDITelephone))
+            {
+                DDI = ddi;
+            }
+
+            if (AssertionConcern.AssertArgumentLength(CodeState, 3, Errors.CodeStateTelephone))
+            {
+                CodeState = codeState;
+            }
+
+            if (AssertionConcern.AssertArgumentLength(Number, 5, 9, Errors.NumberTelephone))
+            {
+                Number = number;
+            }
+        } 
+        #endregion
     }
 }

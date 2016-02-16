@@ -34,7 +34,10 @@ namespace Rango.Common.Validation
         public static bool AssertArgumentLength(string stringValue, int minimum, int maximum, string message)
         {
             if (AssertArgumentEmpty(stringValue, message))
+            {
+                DomainValidationManagement.Add(new DomainValidation(message));
                 return false;
+            }
 
             int length = stringValue.Trim().Length;
             if (length < minimum || length > maximum)
@@ -46,7 +49,7 @@ namespace Rango.Common.Validation
             return true;
         }
 
-        public bool AssertArgumentNotNull(object object1, string message)
+        public static bool AssertArgumentNotNull(object object1, string message)
         {
             if (object1 == null)
             {
@@ -55,7 +58,6 @@ namespace Rango.Common.Validation
             }
 
             return true;
-
         }
 
         public static bool AssertArgumentContainsElement(List<Object> list, string message)
@@ -69,6 +71,17 @@ namespace Rango.Common.Validation
             return true;
         }
 
+        public static bool AssertArgumentLength(string stringValue, int maximum, string message)
+        {
+            int length = stringValue.Trim().Length;
+            if (length > maximum)
+            {
+                DomainValidationManagement.Add(new DomainValidation(message));
+                return false;
+            }
+
+            return true;
+        }
         #endregion
 
 
@@ -82,15 +95,7 @@ namespace Rango.Common.Validation
             }
         }
 
-        public static void AssertArgumentLength(string stringValue, int maximum, string message)
-        {
-            int length = stringValue.Trim().Length;
-            if (length > maximum)
-            {
-                throw new InvalidOperationException(message);
-            }
-        }
-
+        
         public static void AssertArgumentMatches(string pattern, string stringValue, string message)
         {
             Regex regex = new Regex(pattern);
