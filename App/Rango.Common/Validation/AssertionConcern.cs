@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 using Rango.Common.Validation.Domain;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Rango.Common.Validation
 {
@@ -43,6 +45,30 @@ namespace Rango.Common.Validation
 
             return true;
         }
+
+        public bool AssertArgumentNotNull(object object1, string message)
+        {
+            if (object1 == null)
+            {
+                DomainValidationManagement.Add(new DomainValidation(message));
+                return false;
+            }
+
+            return true;
+
+        }
+
+        public static bool AssertArgumentContainsElement(List<Object> list, string message)
+        {
+            if (list == null || list.Count == 0)
+            {
+                DomainValidationManagement.Add(new DomainValidation(message));
+                return false;
+            }
+
+            return true;
+        }
+
         #endregion
 
 
@@ -70,14 +96,6 @@ namespace Rango.Common.Validation
             Regex regex = new Regex(pattern);
 
             if (!regex.IsMatch(stringValue))
-            {
-                throw new InvalidOperationException(message);
-            }
-        }
-
-        public static void AssertArgumentNotNull(object object1, string message)
-        {
-            if (object1 == null)
             {
                 throw new InvalidOperationException(message);
             }
