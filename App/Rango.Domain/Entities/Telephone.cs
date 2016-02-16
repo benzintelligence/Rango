@@ -44,7 +44,7 @@ namespace Rango.Domain.Entities
             {
                 Number = number;
             }
-        } 
+        }
         #endregion
     }
 }
