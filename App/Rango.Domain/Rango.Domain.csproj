@@ -30,6 +30,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Contracts\Repositories\IAdressRepository.cs" />
+    <Compile Include="Contracts\Repositories\IClientRepository.cs" />
+    <Compile Include="Contracts\Repositories\IEmailRepository.cs" />
+    <Compile Include="Contracts\Repositories\IScoreRepository.cs" />
+    <Compile Include="Contracts\Repositories\ITelephoneRepository.cs" />
     <Compile Include="Contracts\Repositories\IUserRepository.cs" />
     <Compile Include="Contracts\Services\IUserService.cs" />
     <Compile Include="Entities\Address.cs" />

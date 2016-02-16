@@ -36,11 +36,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Errors.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Errors\Errors.es.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Errors.es.resx</DependentUpon>
-    </Compile>
     <Compile Include="Resources\Errors\Errors.pt-br.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -59,10 +54,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Errors\Errors.es.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Errors.es.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="Resources\Errors\Errors.pt-br.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Errors.pt-br.Designer.cs</LastGenOutput>

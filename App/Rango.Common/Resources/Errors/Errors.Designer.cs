@@ -61,6 +61,15 @@ namespace Rango.Common.Resources.Errors {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enter an address.
+        /// </summary>
+        public static string AddressEmpty {
+            get {
+                return ResourceManager.GetString("AddressEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Credentials Invalid.
         /// </summary>
         public static string EmailInvalid {
@@ -88,6 +97,15 @@ namespace Rango.Common.Resources.Errors {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Invalid Name.
+        /// </summary>
+        public static string NomeInvalid {
+            get {
+                return ResourceManager.GetString("NomeInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Incorrect password.
         /// </summary>
         public static string PasswordDoNotMatch {
@@ -102,6 +120,15 @@ namespace Rango.Common.Resources.Errors {
         public static string PasswordIntervalCaractere {
             get {
                 return ResourceManager.GetString("PasswordIntervalCaractere", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter a User.
+        /// </summary>
+        public static string UserEmpty {
+            get {
+                return ResourceManager.GetString("UserEmpty", resourceCulture);
             }
         }
     }
