@@ -8,3 +8,4 @@ D:\Projects\Rango\App\Rango.Domain\bin\Debug\Rango.Common.pdb
 D:\Projects\Rango\App\Rango.Domain\bin\Debug\es\Rango.Common.resources.dll
 D:\Projects\Rango\App\Rango.Domain\bin\Debug\pt-br\Rango.Common.resources.dll
 C:\Users\Raah\Documents\Rango\App\Rango.Domain\obj\Debug\Rango.Domain.csprojResolveAssemblyReference.cache
+D:\Projects\Rango\App\Rango.Domain\bin\Debug\Owin.dll

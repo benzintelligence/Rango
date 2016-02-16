@@ -8,7 +8,7 @@ namespace Rango.Domain.Entities
         #region Constructor
         public User(Email email)
         {
-            Email = Email;
+            Email = email;
         } 
         #endregion
 

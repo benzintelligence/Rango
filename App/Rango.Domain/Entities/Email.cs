@@ -21,7 +21,7 @@ namespace Rango.Domain.Entities
         #region Methods
         public void Validate(int id, string eletronicEmail)
         {
-            if (id != 0)
+            if (id > 0)
             {
                 Id = id;
             }

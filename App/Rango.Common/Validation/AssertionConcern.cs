@@ -3,7 +3,6 @@ using System.Text.RegularExpressions;
 using Rango.Common.Validation.Domain;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Rango.Common.Validation
 {
@@ -84,18 +83,6 @@ namespace Rango.Common.Validation
             return true;
         }
 
-        public static bool AssertArgumentLength(string stringValue, int maximum, string message)
-        {
-            int length = stringValue.Trim().Length;
-            if (length > maximum)
-            {
-                DomainValidationManagement.Add(new DomainValidation(message));
-                return false;
-            }
-
-            return true;
-        }
-
         public static bool AssertArgumentGreaterThanZero(int value, string message)
         {
             if (value <= 0)
@@ -106,7 +93,6 @@ namespace Rango.Common.Validation
 
             return true;
         }
-        
         #endregion
 
 

@@ -5,9 +5,9 @@ namespace Rango.Domain.Entities.Order
     public class OrderItem
     {
         #region Constructor
-        public OrderItem(int idOrder, int idProduct, int quantity, int Id = 0)
+        public OrderItem(int idOrder, int idProduct, int quantity, int id = 0)
         {
-            Validate(Id, idOrder, idProduct, quantity);
+            Validate(id, idOrder, idProduct, quantity);
         }
         #endregion
 
@@ -24,7 +24,7 @@ namespace Rango.Domain.Entities.Order
         #region Methods
         public void Validate(int id, int idOrder, int idProduct, int quantity)
         {
-            if (id != 0)
+            if (id > 0)
             {
                 this.Id = id;
             }
@@ -45,6 +45,5 @@ namespace Rango.Domain.Entities.Order
             }
         }
         #endregion
-
     }
 }

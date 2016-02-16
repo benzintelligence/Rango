@@ -25,22 +25,22 @@ namespace Rango.Domain.Entities
         #region Methods
         public void Validate(string ddi, string codeState, string number, int id)
         {
-            if (id != 0)
+            if (id > 0)
             {
                 Id = id;
             }
 
-            if (AssertionConcern.AssertArgumentLength(DDI, 1, 4, Errors.DDITelephone))
+            if (AssertionConcern.AssertArgumentLength(ddi, 1, 4, Errors.DDITelephone))
             {
                 DDI = ddi;
             }
 
-            if (AssertionConcern.AssertArgumentLength(CodeState, 3, Errors.CodeStateTelephone))
+            if (AssertionConcern.AssertArgumentLength(codeState, 3, Errors.CodeStateTelephone))
             {
                 CodeState = codeState;
             }
 
-            if (AssertionConcern.AssertArgumentLength(Number, 5, 9, Errors.NumberTelephone))
+            if (AssertionConcern.AssertArgumentLength(number, 5, 9, Errors.NumberTelephone))
             {
                 Number = number;
             }
