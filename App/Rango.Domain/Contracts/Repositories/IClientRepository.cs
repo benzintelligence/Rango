@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Rango.Domain.Contracts.Repositories.Base;
+using Rango.Domain.Entities;
 
 namespace Rango.Domain.Contracts.Repositories
 {
-    class IClientRepository
+    public interface IClientRepository : IGenericRepository<Client>
     {
     }
 }

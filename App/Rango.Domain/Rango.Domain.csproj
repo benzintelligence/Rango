@@ -30,19 +30,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Contracts\Repositories\Base\IGenericRepository.cs" />
     <Compile Include="Contracts\Repositories\IAdressRepository.cs" />
     <Compile Include="Contracts\Repositories\IClientRepository.cs" />
     <Compile Include="Contracts\Repositories\IEmailRepository.cs" />
     <Compile Include="Contracts\Repositories\IScoreRepository.cs" />
     <Compile Include="Contracts\Repositories\ITelephoneRepository.cs" />
     <Compile Include="Contracts\Repositories\IUserRepository.cs" />
+    <Compile Include="Contracts\Repositories\Ordered\IOrderItemRepository.cs" />
+    <Compile Include="Contracts\Repositories\Ordered\IOrderRepository.cs" />
     <Compile Include="Contracts\Services\IUserService.cs" />
     <Compile Include="Entities\Address.cs" />
     <Compile Include="Entities\Client.cs" />
     <Compile Include="Entities\Email.cs" />
-    <Compile Include="Entities\Order\Order.cs" />
-    <Compile Include="Entities\Order\OrderItem.cs" />
-    <Compile Include="Entities\Order\Payment.cs" />
+    <Compile Include="Entities\Ordered\Order.cs" />
+    <Compile Include="Entities\Ordered\OrderItem.cs" />
+    <Compile Include="Entities\Ordered\Payment.cs" />
     <Compile Include="Entities\Products\Category.cs" />
     <Compile Include="Entities\Products\Product.cs" />
     <Compile Include="Entities\Shop\Rating.cs" />
@@ -74,7 +77,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Contracts\Repositories\Order\" />
     <Folder Include="Contracts\Repositories\Products\" />
     <Folder Include="Contracts\Repositories\Shop\" />
   </ItemGroup>

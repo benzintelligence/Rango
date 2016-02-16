@@ -1,6 +1,7 @@
 ﻿using Rango.Common.Resources.Errors;
 using Rango.Common.Validation;
-namespace Rango.Domain.Entities.Order
+
+namespace Rango.Domain.Entities.Ordered
 {
     public class OrderItem
     {

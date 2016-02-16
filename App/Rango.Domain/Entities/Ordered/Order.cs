@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Rango.Domain.Entities.Shop;
 
-namespace Rango.Domain.Entities.Order
+namespace Rango.Domain.Entities.Ordered
 {
     public class Order
     {
