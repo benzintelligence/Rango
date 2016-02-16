@@ -1,13 +1,50 @@
-﻿namespace Rango.Domain.Entities.Order
+﻿using Rango.Common.Resources.Errors;
+using Rango.Common.Validation;
+namespace Rango.Domain.Entities.Order
 {
     public class OrderItem
     {
-        public int Id { get; set; }
+        #region Constructor
+        public OrderItem(int idOrder, int idProduct, int quantity, int Id = 0)
+        {
+            Validate(Id, idOrder, idProduct, quantity);
+        }
+        #endregion
 
-        public int IdPedido { get; set; }
+        #region Properties
+        public int Id { get; private set; }
 
-        public int IdProduto { get; set; }
+        public int IdOrder { get; private set; }
 
-        public int Quantity { get; set; }
+        public int IdProduct { get; private set; }
+
+        public int Quantity { get; private set; }
+        #endregion
+
+        #region Methods
+        public void Validate(int id, int idOrder, int idProduct, int quantity)
+        {
+            if (id != 0)
+            {
+                this.Id = id;
+            }
+
+            if (AssertionConcern.AssertArgumentGreaterThanZero(idOrder, Errors.OrderInvalid))
+            {
+                this.IdOrder = idOrder;
+            }
+
+            if (AssertionConcern.AssertArgumentGreaterThanZero(idProduct, Errors.ProductInvalid))
+            {
+                this.IdProduct = idProduct;
+            }
+
+            if (AssertionConcern.AssertArgumentGreaterThanZero(quantity, Errors.QuantityInvalid))
+            {
+                this.Quantity = quantity;
+            }
+        }
+        #endregion
+
     }
 }
