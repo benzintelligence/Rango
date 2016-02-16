@@ -19,7 +19,7 @@ namespace Rango.Domain.Entities.Order
         public int IdProduct { get; private set; }
 
         public int Quantity { get; private set; }
-        #endregion
+        #endregion 
 
         #region Methods
         public void Validate(int id, int idOrder, int idProduct, int quantity)
