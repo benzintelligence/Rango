@@ -2,22 +2,22 @@
 {
     public class Address
     {
-        public int Id { get; set; }
+        public int Id { get; private set; }
 
-        public string Street { get; set; }
+        public string Street { get; private set; }
 
-        public string Number { get; set; }
+        public string Number { get; private set; }
 
-        public string City { get; set; }
+        public string City { get; private set; }
 
-        public string State { get; set; }
+        public string State { get; private set; }
 
-        public string CodePostal { get; set; }
+        public string ZipCode { get; private set; }
 
-        public string TypeAddress { get; set; }
+        public string TypeAddress { get; private set; }
 
-        public string Latitude { get; set; }
+        public string Latitude { get; private set; }
 
-        public string Longitude { get; set; }        
+        public string Longitude { get; private set; }
     }
 }

@@ -3,7 +3,7 @@ using Rango.Domain.Entities;
 
 namespace Rango.Domain.Contracts.Repositories
 {
-    public interface IScoreRepository : IGenericRepository<Score>
+    public interface IScoreRepository : IGenericRepository<Credit>
     {
     }
 }

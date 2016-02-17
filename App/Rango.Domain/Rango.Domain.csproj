@@ -62,7 +62,7 @@
     <Compile Include="Entities\Shop\WorkHours.cs" />
     <Compile Include="Entities\Shop\PageLink.cs" />
     <Compile Include="Entities\Shop\PaymentMethod.cs" />
-    <Compile Include="Entities\Score.cs" />
+    <Compile Include="Entities\Credit.cs" />
     <Compile Include="Entities\Shop\Store.cs" />
     <Compile Include="Entities\Telephone.cs" />
     <Compile Include="Entities\User.cs" />

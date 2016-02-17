@@ -104,9 +104,7 @@ namespace Rango.Common.Validation
 
             return true;
         }
-
         #endregion
-
 
         #region Excluir
         //TODO: Excluir métodos
