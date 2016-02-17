@@ -123,8 +123,14 @@
   <data name="CodeStateTelephone" xml:space="preserve">
     <value>Informe o DDD de seu estado</value>
   </data>
+  <data name="CommentaryInvalid" xml:space="preserve">
+    <value>O comentário não deve ultrapassar 500 caracteres</value>
+  </data>
+  <data name="CulinaryInvalid" xml:space="preserve">
+    <value>Informe o nome da Culinária</value>
+  </data>
   <data name="DDITelephone" xml:space="preserve">
-    <value>Informe o DDI.</value>
+    <value>Informe o DDI</value>
   </data>
   <data name="EmailInvalid" xml:space="preserve">
     <value>Credenciais inválidas</value>
@@ -155,6 +161,9 @@
   </data>
   <data name="QuantityInvalid" xml:space="preserve">
     <value>Quantidade deve ser maior que zero</value>
+  </data>
+  <data name="RangeNumeric" xml:space="preserve">
+    <value>Valor informado deveria estar entre 0 e 5</value>
   </data>
   <data name="TitleInvalid" xml:space="preserve">
     <value>Informe o nome da categoria</value>

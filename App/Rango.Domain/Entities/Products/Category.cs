@@ -6,9 +6,9 @@ namespace Rango.Domain.Entities.Products
     {
 
         #region Constructor
-        public Category(string title, int Id = 0)
+        public Category(string title, int id = 0)
         {
-            Validate(title);
+            Validate(title, id);
         } 
         #endregion
 
@@ -19,8 +19,14 @@ namespace Rango.Domain.Entities.Products
         #endregion
 
         #region Methods
-        public void Validate(string title)
+        public void Validate(string title, int id)
         {
+
+            if (id > 0)
+            {
+                this.Id = id;
+            }
+
             if (AssertionConcern.AssertArgumentLength(title, 3, 150, Errors.TitleInvalid))
             {
                 this.Title = title;

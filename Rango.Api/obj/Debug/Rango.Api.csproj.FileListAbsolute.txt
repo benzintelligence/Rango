@@ -35,3 +35,4 @@ D:\Projects\Rango\Rango.Api\bin\pt-br\Rango.Common.resources.dll
 D:\Projects\Rango\Rango.Api\obj\Debug\Rango.Api.csprojResolveAssemblyReference.cache
 D:\Projects\Rango\Rango.Api\obj\Debug\Rango.Api.dll
 D:\Projects\Rango\Rango.Api\obj\Debug\Rango.Api.pdb
+C:\Users\Raah\Documents\Rango\Rango.Api\obj\Debug\Rango.Api.csprojResolveAssemblyReference.cache

@@ -39,6 +39,15 @@
     <Compile Include="Contracts\Repositories\IUserRepository.cs" />
     <Compile Include="Contracts\Repositories\Ordered\IOrderItemRepository.cs" />
     <Compile Include="Contracts\Repositories\Ordered\IOrderRepository.cs" />
+    <Compile Include="Contracts\Repositories\Ordered\IPayment.cs" />
+    <Compile Include="Contracts\Repositories\Products\ICategoryRepository.cs" />
+    <Compile Include="Contracts\Repositories\Products\IProductRepository.cs" />
+    <Compile Include="Contracts\Repositories\Shop\ICulinary.cs" />
+    <Compile Include="Contracts\Repositories\Shop\IPageLink.cs" />
+    <Compile Include="Contracts\Repositories\Shop\IPaymentMethod.cs" />
+    <Compile Include="Contracts\Repositories\Shop\IRating.cs" />
+    <Compile Include="Contracts\Repositories\Shop\IStore.cs" />
+    <Compile Include="Contracts\Repositories\Shop\IWordHours.cs" />
     <Compile Include="Contracts\Services\IUserService.cs" />
     <Compile Include="Entities\Address.cs" />
     <Compile Include="Entities\Client.cs" />
@@ -76,10 +85,7 @@
       <Name>Rango.Common</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Contracts\Repositories\Products\" />
-    <Folder Include="Contracts\Repositories\Shop\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

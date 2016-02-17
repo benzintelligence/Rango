@@ -79,6 +79,24 @@ namespace Rango.Common.Resources.Errors {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The comment must not exceed 500 characters.
+        /// </summary>
+        public static string CommentaryInvalid {
+            get {
+                return ResourceManager.GetString("CommentaryInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter the name of the Culinary.
+        /// </summary>
+        public static string CulinaryInvalid {
+            get {
+                return ResourceManager.GetString("CulinaryInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Enter a DDI.
         /// </summary>
         public static string DDITelephone {
@@ -174,6 +192,15 @@ namespace Rango.Common.Resources.Errors {
         public static string QuantityInvalid {
             get {
                 return ResourceManager.GetString("QuantityInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Informed value must be from 0 to 5.
+        /// </summary>
+        public static string RangeNumeric {
+            get {
+                return ResourceManager.GetString("RangeNumeric", resourceCulture);
             }
         }
         

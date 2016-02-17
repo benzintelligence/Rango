@@ -93,6 +93,18 @@ namespace Rango.Common.Validation
 
             return true;
         }
+
+        public static bool AssertArgumentRangeNumeric(int value, int min, int max, string message)
+        {
+            if (value < min || value > max)
+            {
+                DomainValidationManagement.Add(new DomainValidation(message));
+                return false;
+            }
+
+            return true;
+        }
+
         #endregion
 
 

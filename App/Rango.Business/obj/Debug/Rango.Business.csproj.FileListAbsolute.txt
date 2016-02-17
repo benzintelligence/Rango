@@ -21,3 +21,14 @@ D:\Projects\Rango\App\Rango.Business\bin\Debug\Newtonsoft.Json.dll
 D:\Projects\Rango\App\Rango.Business\bin\Debug\Owin.dll
 D:\Projects\Rango\App\Rango.Business\bin\Debug\Microsoft.Owin.xml
 D:\Projects\Rango\App\Rango.Business\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Raah\Documents\Rango\App\Rango.Business\obj\Debug\Rango.Business.csprojResolveAssemblyReference.cache
+C:\Users\Raah\Documents\Rango\App\Rango.Business\bin\Debug\Rango.Business.dll
+C:\Users\Raah\Documents\Rango\App\Rango.Business\bin\Debug\Rango.Business.pdb
+C:\Users\Raah\Documents\Rango\App\Rango.Business\bin\Debug\Rango.Domain.dll
+C:\Users\Raah\Documents\Rango\App\Rango.Business\bin\Debug\Rango.Common.dll
+C:\Users\Raah\Documents\Rango\App\Rango.Business\bin\Debug\Rango.Domain.pdb
+C:\Users\Raah\Documents\Rango\App\Rango.Business\bin\Debug\Rango.Common.pdb
+C:\Users\Raah\Documents\Rango\App\Rango.Business\bin\Debug\es\Rango.Common.resources.dll
+C:\Users\Raah\Documents\Rango\App\Rango.Business\bin\Debug\pt-br\Rango.Common.resources.dll
+C:\Users\Raah\Documents\Rango\App\Rango.Business\obj\Debug\Rango.Business.dll
+C:\Users\Raah\Documents\Rango\App\Rango.Business\obj\Debug\Rango.Business.pdb

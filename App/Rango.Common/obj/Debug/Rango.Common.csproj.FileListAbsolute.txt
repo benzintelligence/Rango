@@ -19,7 +19,6 @@ C:\Users\Raah\Documents\Rango\App\Rango.Common\bin\Debug\pt-br\Rango.Common.reso
 C:\Users\Raah\Documents\Rango\App\Rango.Common\obj\Debug\Rango.Common.csprojResolveAssemblyReference.cache
 C:\Users\Raah\Documents\Rango\App\Rango.Common\obj\Debug\Rango.Common.Resources.Errors.Errors.resources
 C:\Users\Raah\Documents\Rango\App\Rango.Common\obj\Debug\Rango.Common.Resources.Messages.Messages.resources
-C:\Users\Raah\Documents\Rango\App\Rango.Common\obj\Debug\Rango.Common.Resources.Errors.Errors.es.resources
 C:\Users\Raah\Documents\Rango\App\Rango.Common\obj\Debug\Rango.Common.Resources.Errors.Errors.pt-br.resources
 C:\Users\Raah\Documents\Rango\App\Rango.Common\obj\Debug\Rango.Common.Resources.Messages.Messages.es.resources
 C:\Users\Raah\Documents\Rango\App\Rango.Common\obj\Debug\Rango.Common.Resources.Messages.Messages.pt-br.resources

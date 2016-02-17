@@ -9,3 +9,14 @@ D:\Projects\Rango\App\Rango.Database\bin\Debug\Rango.Common.dll
 D:\Projects\Rango\App\Rango.Database\bin\Debug\Rango.Common.pdb
 D:\Projects\Rango\App\Rango.Database\bin\Debug\es\Rango.Common.resources.dll
 D:\Projects\Rango\App\Rango.Database\bin\Debug\pt-br\Rango.Common.resources.dll
+C:\Users\Raah\Documents\Rango\App\Rango.Database\bin\Debug\Rango.Database.dll
+C:\Users\Raah\Documents\Rango\App\Rango.Database\bin\Debug\Rango.Database.pdb
+C:\Users\Raah\Documents\Rango\App\Rango.Database\bin\Debug\Rango.Domain.dll
+C:\Users\Raah\Documents\Rango\App\Rango.Database\bin\Debug\Rango.Common.dll
+C:\Users\Raah\Documents\Rango\App\Rango.Database\bin\Debug\Rango.Domain.pdb
+C:\Users\Raah\Documents\Rango\App\Rango.Database\bin\Debug\Rango.Common.pdb
+C:\Users\Raah\Documents\Rango\App\Rango.Database\bin\Debug\es\Rango.Common.resources.dll
+C:\Users\Raah\Documents\Rango\App\Rango.Database\bin\Debug\pt-br\Rango.Common.resources.dll
+C:\Users\Raah\Documents\Rango\App\Rango.Database\obj\Debug\Rango.Database.csprojResolveAssemblyReference.cache
+C:\Users\Raah\Documents\Rango\App\Rango.Database\obj\Debug\Rango.Database.dll
+C:\Users\Raah\Documents\Rango\App\Rango.Database\obj\Debug\Rango.Database.pdb

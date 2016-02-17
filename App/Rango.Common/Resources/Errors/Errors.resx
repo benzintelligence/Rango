@@ -123,6 +123,12 @@
   <data name="CodeStateTelephone" xml:space="preserve">
     <value>Enter a code country</value>
   </data>
+  <data name="CommentaryInvalid" xml:space="preserve">
+    <value>The comment must not exceed 500 characters</value>
+  </data>
+  <data name="CulinaryInvalid" xml:space="preserve">
+    <value>Enter the name of the Culinary</value>
+  </data>
   <data name="DDITelephone" xml:space="preserve">
     <value>Enter a DDI</value>
   </data>
@@ -155,6 +161,9 @@
   </data>
   <data name="QuantityInvalid" xml:space="preserve">
     <value>Quantity must be greater than zero</value>
+  </data>
+  <data name="RangeNumeric" xml:space="preserve">
+    <value>Informed value must be from 0 to 5</value>
   </data>
   <data name="TitleInvalid" xml:space="preserve">
     <value>Enter the name of the category</value>
