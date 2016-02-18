@@ -120,11 +120,17 @@
   <data name="AddressEmpty" xml:space="preserve">
     <value>Enter an address</value>
   </data>
+  <data name="CityInvalid" xml:space="preserve">
+    <value>Enter the city correctly</value>
+  </data>
   <data name="CodeStateTelephone" xml:space="preserve">
     <value>Enter a code country</value>
   </data>
   <data name="CommentaryInvalid" xml:space="preserve">
     <value>The comment must not exceed 500 characters</value>
+  </data>
+  <data name="ComplementInvalid" xml:space="preserve">
+    <value>Invalid complement</value>
   </data>
   <data name="CulinaryInvalid" xml:space="preserve">
     <value>Enter the name of the Culinary</value>
@@ -140,6 +146,12 @@
   </data>
   <data name="InvalidPasswordConfirmation" xml:space="preserve">
     <value>Invalid password confirmation</value>
+  </data>
+  <data name="LatitudeInvalid" xml:space="preserve">
+    <value>Invalid latitude</value>
+  </data>
+  <data name="LongitudeInvalid" xml:space="preserve">
+    <value>Invalid longitude</value>
   </data>
   <data name="NomeInvalid" xml:space="preserve">
     <value>Invalid Name</value>
@@ -165,10 +177,22 @@
   <data name="RangeNumeric" xml:space="preserve">
     <value>Informed value must be from 0 to 5</value>
   </data>
+  <data name="StateInitials" xml:space="preserve">
+    <value>Initials of state is invalid</value>
+  </data>
+  <data name="StreetInvalid" xml:space="preserve">
+    <value>Street is invalid</value>
+  </data>
+  <data name="StreetNumberInvalid" xml:space="preserve">
+    <value>Street number is invalid</value>
+  </data>
   <data name="TitleInvalid" xml:space="preserve">
     <value>Enter the name of the category</value>
   </data>
   <data name="UserEmpty" xml:space="preserve">
     <value>Enter a User</value>
+  </data>
+  <data name="ZipCodeInvalid" xml:space="preserve">
+    <value>Zipcode is invalid</value>
   </data>
 </root>

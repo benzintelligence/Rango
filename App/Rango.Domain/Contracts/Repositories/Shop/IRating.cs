@@ -1,5 +1,5 @@
 ﻿using Rango.Domain.Contracts.Repositories.Base;
-using Rango.Domain.Entities.Rating;
+using Rango.Domain.Entities.Shop;
 
 namespace Rango.Domain.Contracts.Repositories.Shop
 {

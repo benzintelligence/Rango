@@ -20,6 +20,12 @@ namespace Rango.Common.Validation
             return true;
         }
 
+        public static bool AssertUrl(string url)
+        {
+            Uri uriResult;
+            return Uri.TryCreate(url, UriKind.Absolute, out uriResult) && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
+        }
+
         public static bool AssertArgumentNotEquals(object object1, object object2, string message)
         {
             if (!object1.Equals(object2))

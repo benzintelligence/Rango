@@ -27,3 +27,4 @@ C:\Users\Raah\Documents\Rango\App\Rango.Common\obj\Debug\es\Rango.Common.resourc
 C:\Users\Raah\Documents\Rango\App\Rango.Common\obj\Debug\pt-br\Rango.Common.resources.dll
 C:\Users\Raah\Documents\Rango\App\Rango.Common\obj\Debug\Rango.Common.dll
 C:\Users\Raah\Documents\Rango\App\Rango.Common\obj\Debug\Rango.Common.pdb
+D:\Projects\Rango\App\Rango.Common\obj\Debug\Rango.Common.csprojResolveAssemblyReference.cache
