@@ -60,14 +60,10 @@ namespace Rango.Domain.Entities
                 State = state;
             }
 
-<<<<<<< HEAD
-        public string CodePostal { get; set;}
-=======
             if (AssertionConcern.AssertArgumentLength(zipCode, 4, 8, Errors.ZipCodeInvalid))
             {
                 ZipCode = zipCode;
             }
->>>>>>> bcac2afb8c9b7957f7c8959dced341831138d9a2
 
             if (AssertionConcern.AssertArgumentLength(complement, 2, 100, Errors.ComplementInvalid))
             {
