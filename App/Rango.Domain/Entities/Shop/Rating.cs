@@ -1,10 +1,10 @@
 ﻿using Rango.Common.Resources.Errors;
 using Rango.Common.Validation;
-namespace Rango.Domain.Entities.Rating
+
+namespace Rango.Domain.Entities.Shop
 {
     public class Rating
     {
-
         #region Constructor
         public Rating(int Attendance, int QualityFood, int Delivery, string Commentary, int idRating = 0)
         {
@@ -52,9 +52,7 @@ namespace Rango.Domain.Entities.Rating
             {
                 this.Commentary = Commentary;
             }
-
         }
         #endregion
-
     }
 }

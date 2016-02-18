@@ -70,6 +70,15 @@ namespace Rango.Common.Resources.Errors {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enter the city correctly.
+        /// </summary>
+        public static string CityInvalid {
+            get {
+                return ResourceManager.GetString("CityInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Enter a code country.
         /// </summary>
         public static string CodeStateTelephone {
@@ -84,6 +93,15 @@ namespace Rango.Common.Resources.Errors {
         public static string CommentaryInvalid {
             get {
                 return ResourceManager.GetString("CommentaryInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid complement.
+        /// </summary>
+        public static string ComplementInvalid {
+            get {
+                return ResourceManager.GetString("ComplementInvalid", resourceCulture);
             }
         }
         
@@ -147,6 +165,22 @@ namespace Rango.Common.Resources.Errors {
         public static string NetworkNameInvalid {
             get {
                 return ResourceManager.GetString("NetworkNameInvalid", resourceCulture);
+            }
+        }
+        ///   Looks up a localized string similar to Invalid latitude.
+        /// </summary>
+        public static string LatitudeInvalid {
+            get {
+                return ResourceManager.GetString("LatitudeInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid longitude.
+        /// </summary>
+        public static string LongitudeInvalid {
+            get {
+                return ResourceManager.GetString("LongitudeInvalid", resourceCulture);
             }
         }
         
@@ -232,6 +266,33 @@ namespace Rango.Common.Resources.Errors {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Initials of state is invalid.
+        /// </summary>
+        public static string StateInitials {
+            get {
+                return ResourceManager.GetString("StateInitials", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Street is invalid.
+        /// </summary>
+        public static string StreetInvalid {
+            get {
+                return ResourceManager.GetString("StreetInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Street number is invalid.
+        /// </summary>
+        public static string StreetNumberInvalid {
+            get {
+                return ResourceManager.GetString("StreetNumberInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Enter the name of the category.
         /// </summary>
         public static string TitleInvalid {
@@ -255,6 +316,15 @@ namespace Rango.Common.Resources.Errors {
         public static string UserEmpty {
             get {
                 return ResourceManager.GetString("UserEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zipcode is invalid.
+        /// </summary>
+        public static string ZipCodeInvalid {
+            get {
+                return ResourceManager.GetString("ZipCodeInvalid", resourceCulture);
             }
         }
     }

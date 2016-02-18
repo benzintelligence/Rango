@@ -1,6 +1,6 @@
 ﻿namespace Rango.Domain.Entities
 {
-    public class Score
+    public class Credit
     {
 
     }

@@ -3,7 +3,7 @@ using Rango.Common.Validation;
 
 namespace Rango.Domain.Entities
 {
-    public class User
+     public class User
     {
         #region Constructor
         public User(Email email)
@@ -42,4 +42,4 @@ namespace Rango.Domain.Entities
         }
         #endregion
     }
-}
+}  
