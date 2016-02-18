@@ -135,11 +135,17 @@
   <data name="EmailInvalid" xml:space="preserve">
     <value>Credenciais inválidas</value>
   </data>
+  <data name="ImageCardUrlInvalid" xml:space="preserve">
+    <value>Informe a Url de imagem do cartão</value>
+  </data>
   <data name="InvalidPassword" xml:space="preserve">
     <value>Senha inválida</value>
   </data>
   <data name="InvalidPasswordConfirmation" xml:space="preserve">
     <value>Confirmação de senha inválida</value>
+  </data>
+  <data name="NetworkNameInvalid" xml:space="preserve">
+    <value>Informe o site de referencia do seu estabelecimento</value>
   </data>
   <data name="NomeInvalid" xml:space="preserve">
     <value>Nome inválido</value>
@@ -156,6 +162,9 @@
   <data name="PasswordIntervalCaractere" xml:space="preserve">
     <value>Senha deve conter de 8 à 20 caracteres</value>
   </data>
+  <data name="PaymentMethodNameInvalid" xml:space="preserve">
+    <value>Informe o nome do método de pagamento</value>
+  </data>
   <data name="ProductInvalid" xml:space="preserve">
     <value>Informe o produto</value>
   </data>
@@ -167,6 +176,9 @@
   </data>
   <data name="TitleInvalid" xml:space="preserve">
     <value>Informe o nome da categoria</value>
+  </data>
+  <data name="UrlPageInvalid" xml:space="preserve">
+    <value>Informe a Url da página</value>
   </data>
   <data name="UserEmpty" xml:space="preserve">
     <value>Informe um Usuário</value>

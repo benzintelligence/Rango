@@ -4,7 +4,6 @@ namespace Rango.Domain.Entities.Products
 {
     public class Category
     {
-
         #region Constructor
         public Category(string title, int id = 0)
         {

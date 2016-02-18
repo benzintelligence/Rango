@@ -12,7 +12,7 @@
 
         public string State { get; set; }
 
-        public string CodePostal { get; set; }
+        public string CodePostal { get; set;}
 
         public string TypeAddress { get; set; }
 

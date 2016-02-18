@@ -115,6 +115,15 @@ namespace Rango.Common.Resources.Errors {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enter a Image Card Url.
+        /// </summary>
+        public static string ImageCardUrlInvalid {
+            get {
+                return ResourceManager.GetString("ImageCardUrlInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Password Invalid.
         /// </summary>
         public static string InvalidPassword {
@@ -129,6 +138,15 @@ namespace Rango.Common.Resources.Errors {
         public static string InvalidPasswordConfirmation {
             get {
                 return ResourceManager.GetString("InvalidPasswordConfirmation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter the reference site of your establishment.
+        /// </summary>
+        public static string NetworkNameInvalid {
+            get {
+                return ResourceManager.GetString("NetworkNameInvalid", resourceCulture);
             }
         }
         
@@ -178,6 +196,15 @@ namespace Rango.Common.Resources.Errors {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enter a Payment method name.
+        /// </summary>
+        public static string PaymentMethodNameInvalid {
+            get {
+                return ResourceManager.GetString("PaymentMethodNameInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Enter a Product.
         /// </summary>
         public static string ProductInvalid {
@@ -210,6 +237,15 @@ namespace Rango.Common.Resources.Errors {
         public static string TitleInvalid {
             get {
                 return ResourceManager.GetString("TitleInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter a Page Url.
+        /// </summary>
+        public static string UrlPageInvalid {
+            get {
+                return ResourceManager.GetString("UrlPageInvalid", resourceCulture);
             }
         }
         
